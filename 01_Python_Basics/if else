@@ -1,0 +1,13 @@
+"""
+Program: If-Else Statement
+Purpose: Check whether a student has passed or failed.
+"""
+
+marks = 35
+
+if marks >= 40:
+    print("Congratulations! You have passed.")
+else:
+    print("Sorry! You have failed.")
+
+print("Program execution completed.")
