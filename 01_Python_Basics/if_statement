@@ -1,0 +1,14 @@
+"""
+Program: Simple If Statement
+Purpose: Check whether a student has passed an examination.
+Language: Python
+"""
+
+# Define examination marks
+marks = 75
+
+# Check the passing condition
+if marks >= 40:
+    print("Congratulations! You have passed.")
+
+print("Program execution completed.")
