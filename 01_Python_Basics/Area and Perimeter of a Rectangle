@@ -1,0 +1,17 @@
+# -----------------------------------------
+# Project: Area and Perimeter of Rectangle
+# Description: Calculate the area and
+# perimeter of a rectangle.
+# -----------------------------------------
+
+# Taking dimensions as input
+length = float(input("Enter length of rectangle: "))
+breadth = float(input("Enter breadth of rectangle: "))
+
+# Calculating perimeter and area
+perimeter = 2 * (length + breadth)
+area = length * breadth
+
+# Displaying the results
+print("Perimeter of rectangle is:", perimeter)
+print("Area of rectangle is:", area)
