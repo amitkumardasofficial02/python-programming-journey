@@ -1,0 +1,19 @@
+
+# -----------------------------------------
+# Project: Salary Calculator
+# Description: Calculate total salary by
+# adding Basic Salary, HRA, and Bonus.
+# -----------------------------------------
+
+# Taking input from the user
+basic_salary = int(input("Enter your basic salary: "))
+hra = int(input("Enter your HRA: "))
+
+# Fixed bonus amount
+bonus = 1000
+
+# Calculating total salary
+total_salary = basic_salary + hra + bonus
+
+# Displaying the result
+print("Your Total Salary:", total_salary)
