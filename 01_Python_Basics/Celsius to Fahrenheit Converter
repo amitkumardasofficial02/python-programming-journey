@@ -1,0 +1,15 @@
+
+# -----------------------------------------
+# Project: Celsius to Fahrenheit Converter
+# Description: Convert temperature from
+# Celsius to Fahrenheit.
+# -----------------------------------------
+
+# Taking Celsius temperature as input
+celsius = float(input("Enter temperature in Celsius: "))
+
+# Converting Celsius to Fahrenheit
+fahrenheit = (celsius * 9/5) + 32
+
+# Displaying the result
+print("Temperature in Fahrenheit:", fahrenheit)
